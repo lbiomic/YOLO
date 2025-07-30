@@ -1,5 +1,7 @@
 # 🧬 YOLO Models for Electrophoresis Gel Analysis
 
+![Gel Example](gel.png)
+
 This repository provides **YOLOv5 to YOLOv12** models trained for automatic detection of electrophoresis gel features — including DNA bands, wells, and molecular markers.
 
 > 🔬 Models trained as part of the study:  
