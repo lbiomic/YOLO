@@ -1,4 +1,4 @@
-# 🧬 YOLO Models for Electrophoresis Gel Analysis
+# 🧬 YOLO Models for Electrophoresis
 
 ![Gel Example](gel.png)
 
