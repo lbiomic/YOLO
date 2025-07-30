@@ -1,0 +1,68 @@
+# 🧬 YOLO Models for Electrophoresis Gel Analysis
+
+This repository provides **YOLOv5 to YOLOv12** models trained for automatic detection of electrophoresis gel features — including DNA bands, wells, and molecular markers.
+
+> 🔬 Models trained as part of the study:  
+> **"Electrophoresis Gels Detection and Analysis Using YOLO"**  
+> Clenivaldo Pires da Silva et al., 2025.
+
+---
+
+## 📦 Available Models
+
+| Model      | Filename      | mAP (%) | Size (MB) | Download |
+|------------|----------------|---------|-----------|----------|
+| YOLOv5     | `yolov5.pt`     | 92.2    | 168.9     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV5&export=download) |
+| YOLOv6     | `yolov6.pt`     | 94.6    | 466.8     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV6&export=download) |
+| YOLOv7     | `yolov7.pt`     | 94.3    | 138.7     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV7&export=download) |
+| YOLOv8     | `yolov8.pt`     | 94.8    | 133.5     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV8&export=download) |
+| YOLOv9     | `yolov9.pt`     | 94.6    | 199.8     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV9&export=download) |
+| YOLOv10    | `yolov10.pt`    | 93.8    | 62.7      | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV10&export=download) |
+| YOLOv11 ✅ | `yolov11.pt`    | **95.0**| 111.7     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV11&export=download) |
+| YOLOv12    | `yolov12.pt`    | 90.9    | 113.6     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV12&export=download) |
+
+> ✅ **YOLOv11 is the recommended model**, with the highest accuracy in our experiments.
+
+---
+
+## 🧾 Dataset & Annotations
+
+- **Image count**: 1,230 images (augmented from 246 real gel electrophoresis images)
+- **Annotation tool**: [Roboflow](https://roboflow.com)
+- **Classes**:
+  - `B` – Band
+  - `L` – Marker region
+  - `M` – Individual marker
+  - `P` – Well region
+  - `Pc` – Individual well
+
+📂 Public dataset and annotations:  
+👉 [Access the dataset on Roboflow Universe](https://universe.roboflow.com/YOUR_WORKSPACE/YOUR_PROJECT)
+
+---
+
+## ⚙️ Training Configuration
+
+- Framework: [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+- Transfer learning from: MS COCO
+- Image size: 416x416
+- Epochs: 2000
+- Hardware: NVIDIA RTX 2060 (12GB)
+
+---
+
+## 📜 Citation
+
+If you use these models, please cite:
+
+> Clenivaldo Pires da Silva, Mateus F. T. Carvalho, Yandre M. G. Costa,  
+> Franklin C. Flores, Julio C. Polonio, and Claudete A. Mangolim.  
+> **"Electrophoresis Gels Detection and Analysis Using YOLO"**, 2025.
+
+---
+
+## 📄 License
+
+These models are available for **academic and research use only**.  
+For commercial use, please contact the authors.
+
