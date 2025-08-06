@@ -21,7 +21,7 @@ This repository provides **YOLOv5 to YOLOv12** models trained for automatic dete
 | YOLOv9     | `yolov9.pt`     | 94.6    | 199.8     | [📥 Download](https://drive.google.com/file/d/174FgwPKwFHsq55TSrMF0WUDFPlmehk9r/view?usp=drive_link) |
 | YOLOv10    | `yolov10.pt`    | 93.8    | 62.7      | [📥 Download](https://drive.google.com/file/d/1H6va65SP_RKHhiVpx0TQzKD3Wq9ymXK7/view?usp=drive_link) |
 | YOLOv11 ✅ | `yolov11.pt`    | **95.0**| 111.7     | [📥 Download](https://drive.google.com/file/d/1BmSwHPjHC-nPrnu884VBEoRFOMDEOWvA/view?usp=drive_link) |
-| YOLOv12    | `yolov12.pt`    | 90.9    | 113.6     | [📥 Download](https://drive.google.com/uc?id=LINK_YOLOV12&export=download) |
+| YOLOv12    | `yolov12.pt`    | 90.9    | 113.6     | [📥 Download](https://drive.google.com/file/d/116fXm0VluzffuEbw1OuY8w_B1MFWfh-R/view?usp=sharing) |
 
 > ✅ **YOLOv11 is the recommended model**, with the highest accuracy in our experiments.
 
